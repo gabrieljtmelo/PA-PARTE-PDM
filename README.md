@@ -25,6 +25,7 @@ O projeto Green Towers surge pela necessidade de uma aplicação que centralize 
 ### Login
 
 Ao entrar na aplicação temos a activity de Login, onde serão diferenciados os tipos de utilizador pelo e-mail e senha.
+![Login](screenshots/login.png)
 
 
 ### Tipos de Utilizadores
