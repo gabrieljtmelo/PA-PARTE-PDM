@@ -119,7 +119,7 @@ Na barra inferior da aplicação, temos 3 icones, que são respectivamente:
 - Icone para a Página inicial de Visitantes
 - Icone para a Página incial de Avisos Individuais
 
-![](screenshots/rececionista/Rececionista_avisos.png)
+![](screenshots/rececionista/rececionista_regas.png)
 
 #### Página inicial de Visitantes
 Temos uma listView de todos os visitantes já registados. Clicando em Registar Visitante, é possível registar um novo visitante.
