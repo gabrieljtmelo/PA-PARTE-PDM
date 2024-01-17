@@ -47,26 +47,29 @@ Na barra inferior da aplicação, temos 5 icones, que são respectivamente:
 - Icone para a Página incial de Tickets
 - Icone para a Página inicial de Avisos
 - Icone para a Página de Perfil do Morador
+![](screenshots/morador/morador_pagina_inicial.png)
 
 
 #### Página Inicial de Reservas
 
 Clicando no botão minhas reservas, temos uma listView das reservas efetuadas. Clicando no botão nova reserva temos a opção de escolher piscina ou churrasqueira,
 escolhendo um ou outro, um DatePickerDialog aparece na tela para escolhermos a data para qual queremos efetuar a reserva.
+![](screenshots/morador/morador_pagina_inicial_reservas.png)
 
 
 #### Página Inicial de Tickets
 
 Clicando no botão meus tickets, temos uma listView dos tickets efetuados. É possível carregar no ticket para visualizar os seus detalhes (como se há ou não resposta daquele ticket). Clicando no botão novo ticket, é possível enviar um novo ticket para o admin.
+![](screenshots/morador/morador_ticket_pagina_inicial.png)
 
 
 #### Página inicial de Avisos
 Na página inicial uma listView dos avisos globais e uma dos individuais. Assim como nos tickets, é possível visualizar os seus detalhes carregando no item da listtView. 
-
+![](screenshots/morador/morador_avisos_pagina_inicial.png)
 
 #### Página de Perfil do Morador
-
 Clicando em cada botão, a respectiva informação aparece.
+![](screenshots/morador/morador_pagina_perfil.png)
 
 
 ### Admin utilizando a aplicação
@@ -78,22 +81,24 @@ Na barra inferior da aplicação, temos 5 icones, que são respectivamente:
 - Icone para a Página incial de Tickets
 - Icone para a Página inicial de Avisos
 - Icone para a Página sobre os moradores
+![](screenshots/admin/admin_pagina_inicial.png)
 
 
 #### Página inicial de Reservas
 Página contendo uma listView de todas as reservas efetuadas por todos os moradores
-
+![](screenshots/admin/admin_reservas_pagina_inicial.png)
 
 #### Página inicial de Tickets
 Temos uma activity com duas listViews, uma de tickets não respondidos e outra com tickets respondidos. Clicando em ticket da lista dos não respondidos, somos redirecionados para uma página de resposta do ticket.
-
+![](screenshots/admin/admin_ticket_pagina_inicial.png)
 
 #### Página inicial de Avisos
 Clicando em meus avisos, temos duas listViews, uma de avisos Globais e outra de individuais. Clicando em Novo aviso Global, somos redirecionados para uma página de criação de um aviso global. Clicando em Novo Aviso Individual, somos redirecionados para uma página de criação de um novo aviso global, onde se pode selecionar um morador com a lista de todos os moradores.
-
+![](screenshots/admin/admin_avisos.png)
 
 #### Página sobre os moradores
 Nesta página é possível visualizar todos os Moradores registados e registar um novo utilizador após clicar no quinto icone(da esquerda para a direita)
+![](screenshots/admin/admin_moradores.png)
 
 
 ### Rececionista utilizando a aplicação
@@ -102,12 +107,15 @@ Na barra inferior da aplicação, temos 3 icones, que são respectivamente:
 - Icone para a Página das Regas (página atual)
 - Icone para a Página inicial de Visitantes
 - Icone para a Página incial de Avisos Individuais
+![](screenshots/rececionista/Rececionista_avisos.png)
 
 #### Página inicial de Visitantes
 Temos uma listView de todos os visitantes já registados. Clicando em Registar Visitante, é possível registar um novo visitante.
+![](screenshots/rececionista/Rececionista_visitantes.png)
 
 #### Página inicial de Avisos Individuais
 Temos uma listView com todos os avisos individuais enviados e um botão para criar um novo aviso Individual (idêntico ao do Admin)
+![](screenshots/rececionista/Rececionista_avisos.png)
 
 ---
 
