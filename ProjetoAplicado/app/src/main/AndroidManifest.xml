@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:networkSecurityConfig="@xml/network_security_config"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ProjetoAplicado"
+        tools:targetApi="31">
+        <activity
+            android:name=".Rececionista_Aviso_Novo_Aviso_Individual_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Rececionista_Aviso_Pagina_Inicial_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Rececionista_Visitantes_Historico_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Admin_Avisos_Meus_Avisos_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Admin_Pagina_Inicial"
+            android:exported="false" />
+        <activity
+            android:name=".Rececionista_Rega_Detalhe"
+            android:exported="false" />
+        <activity
+            android:name=".Admin_Notificacoes_Pagina_Inicial"
+            android:exported="false" />
+        <activity
+            android:name=".Admin_Moradores_ListView_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Admin_Avisos_Novo_Global_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Admin_Avisos_Novo_Individual_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Admin_Avisos_Pagina_Inicial_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Morador_Avisos_Detalhes_Aviso_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Morador_Tickets_Detalhes_Ticket_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Rececionista_Visitantes_Registo_De_Visitante_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Rececionista_Rega_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Admin_Reservas_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Admin_Tickets_Historico_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Admin_Tickets_Resposta_Ticket_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Admin_Registo_De_Morador_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Morador_Perfil_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Morador_Reservas_Cancela_Reserva_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Morador_Avisos_Novo_Aviso_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Morador_Avisos_Historico_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Morador_Avisos_Pagina_Inicial_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Morador_Tickets_Novo_Ticket_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Morador_Tickets_Pagina_Inicial_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Morador_Tickets_Historico_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Morador_Reservas_Historico_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".PreLogin"
+            android:exported="false" />
+        <activity
+            android:name=".Morador_Reservas_Nova_Reserva_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Morador_Reservas_Pagina_Inicial_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Morador_Pagina_Inicial_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

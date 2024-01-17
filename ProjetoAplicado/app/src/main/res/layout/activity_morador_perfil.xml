@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
+
+
+
+    <!-- Botões de ação no topo -->
+
+
+    <!-- ViewSwitcher para alternar entre as informações do perfil e do apartamento -->
+    <ViewSwitcher
+        android:id="@+id/viewSwitcher"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!-- Conteúdo do Perfil -->
+        <LinearLayout
+            android:id="@+id/profile_info"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp"
+            android:visibility="visible">
+
+            <ImageView
+                android:id="@+id/profile_image"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="16dp"
+                android:src="@drawable/perfil" />
+
+            <TextView
+                android:id="@+id/profile_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="Informações do Perfil"
+                android:textAppearance="@style/TextAppearance.AppCompat.Headline" />
+
+        </LinearLayout>
+
+        <!-- Conteúdo do Apartamento -->
+        <LinearLayout
+            android:id="@+id/apartment_info"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/apartment_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="Apartamento X"
+                android:textAppearance="@style/TextAppearance.AppCompat.Headline" />
+        </LinearLayout>
+    </ViewSwitcher>
+
+    <!-- Botões de navegação para alternar as views -->
+
+
+    <!-- View para criar o retângulo na zona inferior do ecrã -->
+    <View
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_alignParentBottom="true"
+        android:background="#5DB075" />
+
+    <!-- Ícones na parte inferior do layout -->
+    <!-- Ícone Home -->
+    <ImageView
+        android:id="@+id/iconHome"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="16dp"
+        android:src="@drawable/home"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true" />
+
+    <!-- Ícone Reservas -->
+    <ImageView
+        android:id="@+id/iconReservas"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_toEndOf="@id/iconHome"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="24dp"
+        android:src="@drawable/reserva"
+        android:layout_alignParentBottom="true" />
+
+    <!-- Ícone Tickets -->
+    <ImageView
+        android:id="@+id/iconTickets"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_toEndOf="@id/iconReservas"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="24dp"
+        android:src="@drawable/ticket2"
+        android:layout_alignParentBottom="true" />
+
+    <!-- Ícone Avisos -->
+    <ImageView
+        android:id="@+id/iconAvisos"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_toEndOf="@id/iconTickets"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="24dp"
+        android:src="@drawable/warning"
+        android:layout_alignParentBottom="true" />
+
+    <!-- Ícone Perfil -->
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="54dp"
+        android:layout_height="62dp"
+        android:layout_toEndOf="@id/iconAvisos"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="22dp"
+        android:src="@drawable/perfil"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/viewSwitcher"
+        android:orientation="horizontal"
+        android:weightSum="2"
+        android:gravity="center_horizontal"
+        android:layout_marginBottom="16dp">
+
+        <Button
+            android:id="@+id/button_profile2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:layout_weight="1"
+            android:backgroundTint="#5DB075"
+            android:text="Nome"
+            android:textColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/button_apartment2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="#5DB075"
+            android:textColor="#FFFFFF"
+            android:text="Meu apartamento"
+            android:layout_marginStart="8dp"/>
+    </LinearLayout>
+
+</RelativeLayout>

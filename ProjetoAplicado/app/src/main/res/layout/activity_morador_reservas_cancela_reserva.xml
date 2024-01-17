@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <!-- Título do Modal -->
+    <TextView
+        android:id="@+id/tvModalTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ivWarning"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="Tem a certeza que pretende cancelar?"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <EditText
+        android:id="@+id/etMessage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Escreva sua mensagem..."
+        android:layout_below="@id/tvModalTitle"
+        android:layout_marginTop="20dp" />
+
+    <Button
+        android:id="@+id/btnConfirm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/etMessage"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#BF251A"
+        android:text="Confirmar"
+        app:iconTint="#F44336" />
+
+    <Button
+        android:id="@+id/btnVoltar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnConfirm"
+        android:layout_marginTop="10dp"
+        android:background="@android:color/transparent"
+        android:text="Voltar"
+        android:textColor="#4CAF50" />
+
+
+
+    <ImageView
+        android:id="@+id/ivWarning"
+        android:layout_width="105dp"
+        android:layout_height="105dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="55dp"
+        android:src="@drawable/warning" />
+
+</RelativeLayout>

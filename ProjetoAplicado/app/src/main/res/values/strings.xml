@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">ProjetoAplicado</string>
+    <string name="entrar">Entrar</string>
+    <string name="email">Email</string>
+    <string name="password">Senha</string>
+    <string name="acessar">Acessar</string>
+    <string name="esqueceu_senha">Esqueceu sua senha?</string>
+    <string name="mostrar_senha">Mostrar Senha</string>
+    <string-array name="apartment_array">
+        <item>Apto 101</item>
+        <item>Apto 102</item>
+        <item>Apto 103</item>
+        <item>Apto 201</item>
+        <item>Apto 202</item>
+        <item>Apto 203</item>
+        <item>Apto 301</item>
+        <item>Apto 302</item>
+        <item>Apto 303</item>
+    </string-array>
+</resources>
